@@ -34,12 +34,15 @@
     <img src="https://img.shields.io/badge/Reddit-f25000?style=for-the-badge&logo=Reddit&logoColor=white" alt="Reddit Badge"/>
   </a>
   <a href="https://zelenka.guru/members/5812311/">
-    <img src="https://img.shields.io/badge/Zelenka-f25000?style=for-the-badge&logo=Zelenka&logoColor=white" alt="Reddit Badge"/>
+    <img src="https://img.shields.io/badge/Zelenka-2bac73?style=for-the-badge&logo=Zelenka&logoColor=white" alt="Zelenka Badge"/>
+  </a>
+  <a href="https://www.instagram.com/xpos_587">
+    <img src="https://img.shields.io/badge/Instagram-da3192?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram Badge"/>
   </a>
 </div>
 
 <div id="badges-info" align="center">
-  <img src="https://komarev.com/ghpvc/?username=xpos587&style=flat-square&color=gray" alt=""/>
+  <img src="https://komarev.com/ghpvc/?username=xpos587&style=flat-square&color=gray" alt="Views Badge"/>
 </div>
 
 <h1>
