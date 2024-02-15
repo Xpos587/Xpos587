@@ -63,6 +63,50 @@
 </table>
 
 <h2>
+  Languages and Tools
+</h2>
+
+<div id="icons" align="center">
+  <a href="https://www.anaconda.com/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/anaconda/anaconda-original.svg"/>
+  </a>
+  <a href="https://jupyter.org/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg"/>
+  </a>
+  <a href="https://www.python.org/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"/>
+  </a>
+  <a href="https://www.kaggle.com/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kaggle/kaggle-original.svg"/>
+  </a>
+  <a href="https://nodejs.org/en">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"/>
+  </a>
+  <a href="https://astro.build/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/astro/astro-original.svg"/>
+  </a>
+  <a href="https://www.docker.com/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"/>
+  </a>
+  <a href="https://www.postgresql.org/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"/>
+  </a>
+  <a href="https://www.java.com/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg"/>
+  </a>
+  <a href="https://learn.microsoft.com/en-us/cpp/?view=msvc-170">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"/>
+  </a>
+  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"/>
+  </a>
+  <a href="https://www.jenkins.io/">
+    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg"/>
+  </a>
+</div>
+
+
+<h2>
   About me
 </h2>
 
