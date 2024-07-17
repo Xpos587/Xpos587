@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.tenor.com/9Hiuq_uczMcAAAAi/counting-money-trouble.gif" width="100"/>
+  <img src="./preview.gif" width="60%" alt="Preview Gif"/>
 </div>
 
 <div id="badges" align="center">
@@ -33,7 +33,7 @@
   <a href="https://www.reddit.com/user/CriticismOver4672">
     <img src="https://img.shields.io/badge/Reddit-f25000?style=for-the-badge&logo=Reddit&logoColor=white" alt="Reddit Badge"/>
   </a>
-  <a href="https://zelenka.guru/members/5812311/">
+  <a href="https://lolz.live/members/5812311/">
     <img src="https://img.shields.io/badge/Zelenka-2bac73?style=for-the-badge&logo=Zelenka&logoColor=white" alt="Zelenka Badge"/>
   </a>
   <a href="https://www.instagram.com/xpos_587">
@@ -50,7 +50,6 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 
-
 <table>
   <tr>
     <td>
@@ -62,9 +61,7 @@
   </tr>
 </table>
 
-<h2>
-  Languages and Tools
-</h2>
+## Languages and Tools
 
 <div id="icons" align="center">
   <a href="https://www.anaconda.com/">
@@ -76,8 +73,8 @@
   <a href="https://www.python.org/">
     <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"/>
   </a>
-  <a href="https://www.kaggle.com/">
-    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kaggle/kaggle-original.svg"/>
+  <a href="https://github.com/aiogram/aiogram">
+    <img style="height: 40px;" src="https://avatars.githubusercontent.com/u/33784865?s=200&v=4"/>
   </a>
   <a href="https://nodejs.org/en">
     <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"/>
@@ -94,28 +91,23 @@
   <a href="https://www.java.com/">
     <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg"/>
   </a>
-  <a href="https://learn.microsoft.com/en-us/cpp/?view=msvc-170">
+  <!-- <a href="https://learn.microsoft.com/en-us/cpp/?view=msvc-170">
     <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"/>
-  </a>
-  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
-    <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"/>
-  </a>
-  <a href="https://www.jenkins.io/">
+  </a> -->
+  <!-- <a href="https://www.jenkins.io/">
     <img style="height: 40px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg"/>
-  </a>
+  </a> -->
 </div>
 
-
-<h2>
-  About me
-</h2>
+## About me
 
 Hello! I'm Michael Bodarev, a seasoned Machine Learning & Deep Learning Engineer and Data Scientist with a penchant for innovation. I lead the Artiffusion project, where creativity meets cutting-edge technology. [Perplexity](https://perplexity.ai) one love 💕.
 
 Engaging with the community is my forte. I thrive on interactions, sharing insights, and learning from diverse perspectives. Connect with me on social media to be part of my journey in tech and innovation ❤️.
 
 My Passions
-* Deep Learning: Exploring the depths of neural networks.
+
+<!-- * Deep Learning: Exploring the depths of neural networks. -->
 * Machine Learning: Crafting intelligent systems that learn and adapt.
 * Data Analysis: Turning data into meaningful stories.
 * Automation: Streamlining processes for efficiency and accuracy.

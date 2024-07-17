@@ -1,0 +1,450 @@
+{
+    "window.autoDetectColorScheme": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.enablePreview": true,
+    "editor.formatOnType": true,
+    "window.title": "${rootFolder}${separator}${Foldername}${separator}${activeEditorShort}${separator}",
+    "window.titleBarStyle": "custom",
+    "workbench.settings.editor": "json",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor",
+        "*.docx": "cweijan.officeViewer",
+        "*.html": "cweijan.officeViewer",
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 15,
+    "update.mode": "manual",
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredLightColorTheme": "Material Theme Darker High Contrast",
+    "window.commandCenter": false,
+    //
+    // EDITOR
+    //
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "'FiraCode Nerd Font Mono', 'FiraCode Nerd Font', FiraCode, Menlo, Monaco, 'Courier New', monospace",
+    "chat.editor.fontFamily": "'FiraCode Nerd Font Mono', 'FiraCode Nerd Font', FiraCode, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.glyphMargin": false,
+    "editor.lineNumbers": "on",
+    "editor.foldingHighlight": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 80,
+    "rewrap.autoWrap.enabled": true,
+    "editor.largeFileOptimizations": true,
+    "editor.hover.delay": 400,
+    "editor.hover.hidingDelay": 0,
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": true,
+    "editor.minimap.size": "fit",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "workbench.editor.tabActionCloseVisibility": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.showTabs": "none",
+    "editor.matchBrackets": "near",
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.bracketPairs": false,
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "editor.inlayHints.enabled": "off",
+    "window.autoDetectHighContrast": false,
+    "zenMode.fullScreen": false,
+    "editor.overviewRulerBorder": false,
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.tabSize": 4,
+    "editor.mouseWheelZoom": true,
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": "allDocuments",
+    "editor.snippetSuggestions": "top",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "breadcrumbs.enabled": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.includeComments": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "codesnap.realLineNumbers": true,
+    "codesnap.shutterAction": "copy",
+    //
+    // TERMINAL
+    //
+    // "terminal.integrated.suggest.enabled": true,
+    "terminal.integrated.useWslProfiles": true,
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.mouseWheelScrollSensitivity": 0.8,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "MINGW64": {
+            "path": "C:/msys64/usr/bin/bash.exe",
+            "args": [
+                "--login"
+            ],
+            "icon": "terminal-bash"
+        },
+    },
+    "terminal.integrated.env.windows": {
+        "CHERE_INVOKING": "1",
+        "MSYSTEM": "MINGW64",
+    },
+    "terminal.integrated.detectLocale": "on",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'FiraCode Nerd Font', FiraCode, Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.cursorStyle": "underline",
+    "code-runner.runInTerminal": true,
+    //
+    // SEARCH & EXCLUDE
+    //
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/env": true,
+        "**/venv": true,
+        "**/data": true,
+        "**/__pycache__": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "env-*": true,
+        "**/bower_components/**": true,
+        "**/__pycache__/**": true,
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*notifications/": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/node_modules": true,
+        "venv": true,
+        "*.sublime-*": true,
+        "env*": true,
+        "**/bower_components": true,
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*notifications/": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true
+    },
+    //
+    // COLOR SHEME
+    //
+    "workbench.colorCustomizations": {
+        // "menu.background": "#2e333b70", //context menu
+        // "menu.selectionBackground": "#4247509a", //context menu hover
+        // "editorWidget.background": "#51586320", //widget and tooltip
+        "quickInput.background": "#2e333b00", //command center drop down menu
+        // "notifications.background": "#29303bd7", //Notification background color.
+    },
+    //
+    // EXPLORER
+    //
+    // "scm.diffDecorations": "minimap",
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.openEditors.visible": 10,
+    "explorer.autoReveal": false,
+    //
+    // DEBUG
+    //
+    "debug.inlineValues": "on",
+    //
+    // EXTENSIONS
+    //
+    "extensions.ignoreRecommendations": true,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    //
+    // ASSOCIATIONS
+    //
+    "files.associations": {
+        ".env": "env",
+        ".env.dist": "env",
+        ".env.example": "env",
+        "*.ipynb": "jupyter-notebook",
+        "*.md": "markdown",
+    },
+    //
+    // CLOCK
+    //
+    "clock.dateFormat": "HH:MM:ss",
+    //
+    // PROXY
+    //
+    "http.proxyStrictSSL": true,
+    "http.proxy": "http://V02UnH:aQQarK@181.177.87.154:9434",
+    // "http.proxy": "http://proksi:lolka2007@87.251.79.99:4090",
+    "http.proxySupport": "override",
+    //
+    // JUPYTER NOTEBOOK
+    //
+    "jupyter.askForKernelRestart": false,
+    "jupyter.logging.level": "off",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "jupyter.notebookRunGroups.runIconsInExecute": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "notebook.lineNumbers": "on",
+    "notebook.output.minimalErrorRendering": true,
+    "notebook.stickyScroll.mode": "flat",
+    "jupyterhub.log": "off",
+    "notebook.insertFinalNewline": false,
+    "notebook.codeActionsOnSave": {
+        "source.fixAll.ruff": false,
+        "source.organizeImports.ruff": true,
+        "source.fixAll.eslint": true
+    },
+    "jupyter.interactiveWindow.codeLens.commands": "jupyter.runcell, jupyter.debugcell",
+    "jupyter.jupyterLaunchRetries": 2,
+    "jupyter.runStartupCommands": [
+        "from IPython.core.display import display, HTML",
+        "import pandas as pd",
+        "import polars as pl",
+        "import numpy as np",
+        "import matplotlib.pyplot as plt",
+        "import seaborn as sns",
+        "import matplotlib",
+        "import seaborn",
+        "import sys",
+        "pd.set_option(\"display.max_columns\", None)",
+        "plt.style.use(\"fivethirtyeight\")",
+        "sns.set_theme(style=\"whitegrid\")",
+        "%config InlineBackend.figure_formats = [\"png\"]",
+        "%load_ext autoreload",
+        "%autoreload 2"
+    ],
+    "dataWrangler.experiments.useJupyterProposedAPI": true,
+    "dataWrangler.experiments.fastCsvParsing": true,
+    //
+    // PYTHON
+    //
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "always",
+            "source.organizeImports.ruff": "always"
+        }
+    },
+    "mypy-type-checker.preferDaemon": true,
+    "mypy-type-checker.args": [
+        "--ignore-missing-imports",
+        "--follow-imports=silent",
+        "--show-column-numbers"
+    ],
+    //
+    // C++
+    //
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+    "clangd.path": "C:/Users/xpos587/AppData/Local/Microsoft/WinGet/Links/clangd.exe",
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--query-driver=C:/msys64/ucrt64/bin/g++.exe",
+        "--compile-commands-dir=${workspaceFolder}",
+        "-I",
+        "C:/msys64/ucrt64/include/c++/13.2.0",
+        "-I",
+        "C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32",
+        "-I",
+        "C:/msys64/ucrt64/include"
+    ],
+    "clangd.onConfigChanged": "restart",
+    //
+    // GIT
+    //
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": true,
+        "plaintext": true
+    },
+    "github.copilot.chat.localeOverride": "ru",
+    "git-autoconfig.configList": [
+        {
+            "user.email": "x30827pos@gmail.com",
+            "user.name": "Michael"
+        }
+    ],
+    //
+    // POWER SHELL
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.startAutomatically": true,
+    "powershell.startAsLoginShell.osx": false,
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    },
+    //
+    //
+    // DIFF
+    //
+    "diffEditor.ignoreTrimWhitespace": true,
+    //
+    // SECURITY
+    //
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    //
+    // TELEMETRY
+    //
+    "telemetry.telemetryLevel": "off",
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "database-client.telemetry.usesOnlineServices": false,
+    "gitlens.telemetry.enabled": false,
+    "postman.telemetry.enabled": false,
+    "redhat.telemetry.enabled": false,
+    "code-runner.enableAppInsights": false,
+    //
+    // MISC
+    //
+    "remote.SSH.remotePlatform": {
+        "192.168.0.11": "linux"
+    },
+    "docker.dockerPath": "C:/Users/xpos587/Documents/PowerShell/docker-wsl.cmd",
+    "commentTranslate.targetLanguage": "ru",
+    "codeium.detectProxy": true,
+    "arduino.useArduinoCli": true,
+    "editor.stickyScroll.enabled": false,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[env]": {
+        "editor.defaultFormatter": "IronGeek.vscode-env"
+    },
+    //
+    // ERROR LENS
+    //
+    "errorLens.messageEnabled": true,
+    "errorLens.messageBackgroundMode": "message",
+    "errorLens.messageTemplate": " ◩ $message ‎", // ▣ ◩ ◐
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSet": "squareRounded",
+    "errorLens.enabledDiagnosticLevels": [
+        "warning",
+        "error"
+    ],
+    //
+    // USER INTERFACE
+    //
+    "apc.menubar.compact": true,
+    "apc.font.family": "'FiraCode Nerd Font Mono', 'FiraCode Nerd Font', FiraCode, Menlo, Monaco, 'Courier New', monospace",
+    "apc.electron": {
+        "frame": false,
+        "titleBarStyle": "hiddenInset",
+    },
+    "apc.listRow": {
+        "height": 21
+    },
+    "apc.statusBar": {
+        "position": "editor-top",
+        "height": 22,
+        "fontSize": 10,
+    },
+    "apc.activityBar": {
+        "position": "top",
+        "itemSize": 24,
+        "itemMargin": 5,
+    },
+    "apc.header": {
+        "height": 33
+    },
+    "ShortcutMenuBar.beautify": false,
+    "ShortcutMenuBar.openFilesList": false,
+    "apc.sidebar.titlebar": {
+        "height": 33,
+        "fontSize": 12
+    },
+    "apc.stylesheet": {
+        ".title-actions .actions-container": "display: none;",
+        // Don't indent the sidebar title.
+        ".custom-sidebar-titlebar .sidebar .composite.title": "padding-left: 0;",
+        // Don't indent the statusbar items.
+        ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.left.first-visible-item": "padding-left: 0;",
+        // Show the host button, and make it as wide as the .activitybar.
+        // ".statusbar #status\\.host": "display: block !important; width: calc(var(--activity-bar-action-size) - 1px); background: [#555](https://github.com/lehni/vscode-titlebar-less-macos/issues/555) !important;",
+        // ".statusbar #status\\.host .codicon": "margin: 0 auto;",
+        // ".composite.title": "display: block !important;",
+        // ".title-label": "display: none !important;",
+        // ".monaco-workbench .part.sidebar .title-actions .actions-container": "display: none !important;",
+        // Change Text
+        ".title-label h2": "visibility: hidden; position: relative;",
+        ".title-label h2:after": "visibility: visible; position: absolute; top: 0; left: 0;content: 'EXPLORER'",
+        ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important",
+        // Remove padding from open editors
+        "#workbench\\.view\\.explorer > div > div > div.monaco-scrollable-element > div.split-view-container > div:nth-child(1) > div > div.pane-body.open-editors.show-file-icons.custom-list-row > div > div > div.monaco-list-rows > div": {
+            "padding": 0
+        },
+        // Remove app icon
+        "#workbench\\.parts\\.titlebar > div > div.titlebar-left > a": {
+            "display": "none"
+        }
+        // Remove restore window button
+        // "#workbench\\.parts\\.titlebar > div > div.titlebar-right > div.window-controls-container.primary > div.window-icon.window-max-restore.codicon.codicon-chrome-restore": {
+        //     "display": "none",
+        // },
+        // "#workbench\\.parts\\.titlebar > div > div.titlebar-right > div.window-controls-container.primary": {
+        //     "width": "auto"
+        // },
+    },
+    "workbench.preferredDarkColorTheme": "Material Theme Palenight High Contrast",
+    //
+    // END
+    //
+}
