@@ -96,7 +96,9 @@
     "terminal.integrated.useWslProfiles": true,
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.mouseWheelScrollSensitivity": 0.8,
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
@@ -212,9 +214,8 @@
     //
     // PROXY
     //
-    "http.proxyStrictSSL": true,
+    "http.proxyStrictSSL": false,
     "http.proxy": "http://V02UnH:aQQarK@181.177.87.154:9434",
-    // "http.proxy": "http://proksi:lolka2007@87.251.79.99:4090",
     "http.proxySupport": "override",
     //
     // JUPYTER NOTEBOOK
@@ -261,6 +262,7 @@
     ],
     "dataWrangler.experiments.useJupyterProposedAPI": true,
     "dataWrangler.experiments.fastCsvParsing": true,
+    "dataWrangler.experiments.autoDetectCsvDelimiter": true,
     //
     // PYTHON
     //
@@ -318,8 +320,12 @@
     ],
     //
     // POWER SHELL
+    //
+    "powershell.enableProfileLoading": true,
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.startAutomatically": true,
+    "powershell.integratedConsole.startInBackground": true,
+    "powershell.integratedConsole.suppressStartupBanner": true,
     "powershell.startAsLoginShell.osx": false,
     "[powershell]": {
         "editor.defaultFormatter": "ms-vscode.powershell"
@@ -434,7 +440,7 @@
         // Remove app icon
         "#workbench\\.parts\\.titlebar > div > div.titlebar-left > a": {
             "display": "none"
-        }
+        },
         // Remove restore window button
         // "#workbench\\.parts\\.titlebar > div > div.titlebar-right > div.window-controls-container.primary > div.window-icon.window-max-restore.codicon.codicon-chrome-restore": {
         //     "display": "none",

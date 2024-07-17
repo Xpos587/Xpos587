@@ -1,3 +1,4 @@
+Clear-Host
 oh-my-posh init pwsh --config "C:\Users\xpos587\Documents\PowerShell\myprofile.omp.json" | Invoke-Expression
 
 function Search-Web {
@@ -54,4 +55,12 @@ Import-Module Microsoft.WinGet.CommandNotFound
 Set-PSReadLineKeyHandler -Key Tab -Function Complete
 Set-PSReadLineOption -PredictionViewStyle ListView
 
+Set-PSReadLineKeyHandler -Chord Ctrl+l -ScriptBlock {
+  [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+  [Microsoft.PowerShell.PSConsoleReadLine]::Insert("Clear-Host")
+  [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
+}
+
 $env:VIRTUAL_ENV_DISABLE_PROMPT = "1"
+$env:POWERSHELL_UPDATECHECK = "Off"
+
