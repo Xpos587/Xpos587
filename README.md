@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="./preview.gif" width="60%" alt="Preview Gif"/>
+  <img src="https://raw.githubusercontent.com/Xpos587/Xpos587/main/assets/readme.gif" width="60%" alt="Preview Gif"/>
 </div>
 
 <div id="badges" align="center">
